@@ -23,4 +23,4 @@ Any contributions will be welcome from the KKU community to improve this platfor
 
 This website is a personal project and not an official representation of **King Khalid University**. Dates and information may change; please refer to official university sources for the most up-to-date information.
 
-We hope you find this platform useful for managing your academic schedule at KKU. Feel free to share it with your fellow students! 📚
+I hope you find this platform useful for managing your academic schedule at KKU. Feel free to share it with your fellow students! 📚
