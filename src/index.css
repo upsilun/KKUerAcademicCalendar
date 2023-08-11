@@ -1,0 +1,129 @@
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Readex+Pro:wght@700&display=swap');
+
+/* Body styles */
+body {
+    background-color: #F9F8F5;
+    text-align: center;
+    font-family: 'Readex Pro', sans-serif;
+    margin: 10px;
+    padding-bottom: 300px;
+}
+
+/* Centered image */
+.img_center {
+    display: block;
+    justify-content: center;
+    margin-inline: auto;
+    margin-top: 70px;
+    width: 20rem;
+    border-radius: 10px;
+}
+
+/* Notice paragraph styles */
+.notice_p {
+    color: gray;
+    font-size: 13px;
+}
+
+/* Event container */
+.event {
+    display: block;
+    justify-content: center;
+    margin-inline: auto;
+    margin-top: 50px;
+    width: 50%;
+    height: fit-content;
+    min-height: 250px;
+    background-color: white;
+    padding: 20px;
+    border: 1px solid gray;
+    border-radius: 20px;
+}
+
+/* Overlapping event style */
+.event_over {
+    min-height: 150px;
+    opacity: 50%;
+    border-color: red;
+}
+
+/* Near event style */
+.event_near {
+    width: 60%;
+    border-color: green;
+}
+
+/* Event header style */
+.event h4 {
+    margin-top: 15px;
+}
+
+/* Placeholder text color */
+.p_id {
+    color: transparent;
+}
+
+/* Load more button styles */
+.load_more_btn {
+    width: fit-content;
+    height: fit-content;
+    background-color: #898C91;
+    color: white;
+    padding-inline: 50px;
+    margin-top: 50px;
+    padding-top: 5px;
+    padding-bottom: 3px;
+    font-size: 1rem;
+    border-radius: 13px;
+}
+
+/* Load more button icon alignment */
+.load_more_btn i {
+    font-size: 30px;
+    vertical-align: -5px;
+}
+
+/* Social media icons */
+.social_inline {
+    display: inline-block;
+    font-size: 40px;
+    margin-inline: 20px;
+    cursor: pointer;
+    user-select: none;
+}
+
+/* Horizontal line separator */
+.line_end {
+    width: 90%;
+    height: 3px;
+    background-color: rgb(204, 204, 204);
+    margin-top: 70px;
+    display: block;
+    justify-content: center;
+    margin-inline: auto;
+}
+
+/* Semester name style */
+.semester_name {
+    color: rgb(70, 70, 70);
+    background-color: #F9F8F5;
+    width: fit-content;
+    display: block;
+    justify-content: center;
+    margin-inline: auto;
+    margin-top: -20px;
+}
+
+/* Responsive styles for large screens */
+@media only screen and (max-width: 1900px) {
+    .event {
+        width: 85%;
+    }
+    .event_over {
+        width: 80%;
+    }
+    .event_near {
+        width: 95%;
+    }
+}
