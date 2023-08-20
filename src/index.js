@@ -32,14 +32,6 @@ var arrayOfObjects =
     }, 
 
     // 1st Semester
-
-    {
-        title: "s1",
-        date: "2023/08/20",
-        dateHijri: "1445/02/04",
-        day: "الأحد"
-    }, 
-
     {
         title: "بداية الدراسة",
         date: "2023/08/20",
@@ -112,15 +104,7 @@ var arrayOfObjects =
 
     // 1st Semester end
 
-    {
-        title: "s2",
-        date: "2024/01/07",
-        dateHijri: "1445/06/25",
-        day: "الأحد"
-    },
-
     // 2nd Semester
-
     {
         title: "بداية تأجيل الدراسة",
         date: "2024/01/07",
@@ -222,13 +206,6 @@ var arrayOfObjects =
 
     // 2nd Semester Ends
 
-    {
-        title: "s3",
-        date: "2024/06/24",
-        dateHijri: "1445/12/17",
-        day: "الأحد"
-    }, 
-
     // Summer Semester
             
     {
@@ -310,21 +287,7 @@ for (var i = currentIndex; i < arrayOfObjects.length; i++) {
     var remainingDaysOfObject = calculateRemainingDays(arrayOfObjects[i].date);
     var remainingHoursOfObject = calculateRemainingHours(arrayOfObjects[i].date);
 
-    // Check if the current object title is one of "s1", "s2", or "s3"
-    if (arrayOfObjects[i].title == "s1" || arrayOfObjects[i].title == "s2" || arrayOfObjects[i].title == "s3") {
-        // Append appropriate elements based on the title
-        $('body').append('<div class="line_end"></div>');
-        if (arrayOfObjects[i].title == "s1") {
-            $('body').append('<h4 class="semester_name">الفصل الاول</h4>');
-        } else if (arrayOfObjects[i].title == "s2") {
-            $('body').append('<h4 class="semester_name">الفصل الثاني</h4>');
-        } else if (arrayOfObjects[i].title == "s3") {
-            $('body').append('<h4 class="semester_name">الفصل الصيفي</h4>');
-        }
 
-        // Skip to the next iteration
-        continue;
-    }
 
     // Log the current index
     cl(currentIndex)
